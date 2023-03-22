@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+
+   <script src="main.js"></script>
+    <title>Şikayet Etme</title>
+</head>
+<body onload="baslangic()">
+
+    <div class="sikayetEtme">
+
+        <div class="ust">
+            <label for="">Tel. Marka</label>  
+            <input type="text" id="marka" placeholder="Tel. Marka..."> 
+            <label id="yildizMarka" for="">*</label>
+            <br>
+            <label for="">Tel. Model</label>  
+            <input type="text" id="model" placeholder="Tel. Model...">
+            <label id="yildizModel" for="">*</label>
+
+        </div>
+
+        <div class="orta">
+            <label class="ortaLabel" for="">Açıklama</label> 
+            <label id="yildizAciklama" for="">*</label>
+            <textarea name="" id="aciklama" cols="30" rows="5" placeholder="Açıklama..."></textarea>
+
+        </div>
+
+        <div class="alt"> 
+            <input type="button" id="btnSikayetEt" value="Şikayet Et" onclick="btnTikla()">
+            <span id="sikayetYazi"></span>
+
+        </div>
+    </div> 
+    
+</body>
+</html>
